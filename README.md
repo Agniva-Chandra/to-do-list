@@ -1,13 +1,13 @@
-#📝 To-Do List Web App
+📝 To-Do List Web App
 A modern, minimalist To-Do List web app designed to keep you productive. Create, complete, and remove tasks with ease, while enjoying an animated UI and a real-time circular progress tracker.
 
 Live Demo: (Add your live demo link here if hosted on GitHub Pages, Netlify, etc.)
 
-##✨ Features
+✨ Features
 
-###➕ Add new tasks using the input field
+➕ Add new tasks using the input field
 
-##✔️ Mark tasks as complete with a click
+✔️ Mark tasks as complete with a click
 
 🗑️ Delete individual tasks instantly
 
