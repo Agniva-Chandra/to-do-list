@@ -1,91 +1,40 @@
-📝 To-Do List Web App
-A modern, minimalist To-Do List web app designed to keep you productive. Create, complete, and remove tasks with ease, while enjoying an animated UI and a real-time circular progress tracker.
+# 📝 To-Do List Web App
 
-Live Demo: (Add your live demo link here if hosted on GitHub Pages, Netlify, etc.)
+A clean and interactive To-Do List web application to manage your daily tasks easily.
 
-✨ Features
+## 🚀 Features
 
-➕ Add new tasks using the input field
+- ✅ **Add, Complete, and Delete Tasks**
+- 📊 **Circular Progress Indicator** showing task completion percentage
+- 🎨 **Smooth Modern Background** for a better user experience
+- 🧠 **Simple and User-Friendly Interface**
 
-✔️ Mark tasks as complete with a click
 
-🗑️ Delete individual tasks instantly
+## 📷 Screenshots
 
-🔄 Dynamic circular percentage progress indicator
+![image](https://github.com/user-attachments/assets/3281ea99-5205-43af-bb91-21e828de4211)
 
-🖱️ Smooth hover effects on buttons and tasks
 
-📱 Fully responsive for desktop and mobile
+## 🛠️ Technologies Used
 
-💾 Tasks saved in browser localStorage (optional)
+- HTML
+- CSS 
+- JavaScript 
 
-📸 Preview
+## 📂 Folder Structure
 
-🧠 Technologies Used
-🧱 HTML5
+├── to do list.html   
+├── to do list.css   
+├── to do list.js   
+└── README.md
 
-🎨 CSS3 with custom hover styles
+# ✨ Future Enhancements
+🔁 Task filtering (All, Active, Completed)
 
-⚙️ JavaScript (Vanilla)
+☁️ Save tasks using localStorage or Firebase
 
-📊 CSS/SVG circular progress (no external libraries)
+🌓 Dark mode toggle
 
-📂 Folder Structure
-bash
-Copy
-Edit
-📁 todo-list/
-├── index.html           # Main HTML file
-├── style.css            # Styling and animations
-├── script.js            # Application logic
-├── screenshot.png       # App preview image
-└── README.md            # You're reading it!
-🚀 Getting Started
-To run the app locally:
+📃 License
+This project is licensed under the MIT License.
 
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/todo-list.git
-Navigate into the project folder:
-
-bash
-Copy
-Edit
-cd todo-list
-Open index.html in your browser:
-
-bash
-Copy
-Edit
-open index.html
-# or just double-click it from your file explorer
-Alternatively, you can use Live Server in VS Code for auto-reloading.
-
-🗃️ Optional Features (You Can Add)
-Save tasks to localStorage for persistence
-
-Add due dates or categories
-
-Implement drag-and-drop task sorting
-
-Add dark mode toggle
-
-Firebase sync (for cloud-based task list)
-
-💡 Future Plans
- Dark mode
-
- Task filtering (All / Active / Completed)
-
- Firebase integration
-
- Notifications or reminders
-
-🙌 Contributing
-Got ideas or improvements? Fork the repo and create a pull request. All contributions are welcome!
-
-📄 License
-This project is licensed under the MIT License — feel free to use and adapt it.
