@@ -1,0 +1,158 @@
+body {
+    background-image: url(https://cdn.photoroom.com/v2/image-cache?path=gs://background-7ef44.appspot.com/backgrounds_v3/black/47_-_black.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    width: 450px;
+    height: 450px;
+    backdrop-filter: blur(100px);
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+    overflow-y: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+
+
+.delete-btn svg {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.delete-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.button-container {
+    display: flex;
+    gap: 5px;
+}
+
+.complete-btn {
+    background: #28a745;
+}
+
+.complete-btn:hover {
+    background: #218838;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.task-text {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.progress-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    position: relative;
+    margin: 0 auto 20px;
+}
+
+.progress-circle-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#progress-percentage {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.progress-circle::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(#4CAF50 var(--progress, 0%), transparent 0);
+}
